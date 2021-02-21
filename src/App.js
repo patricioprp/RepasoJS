@@ -1,9 +1,12 @@
 
-import  Tarea  from "../src/js/Tarea";
+import Tarea  from "../src/js/Tarea";
 
 function App() {
   return <>
   </>;
 }
-console.log(Tarea);
+
+const tarea1 = new Tarea('Pasear al perro','Alta')
+console.log(tarea1);
+tarea1.mostrar();
 export default App;
